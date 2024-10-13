@@ -29,11 +29,11 @@
     display: block;
   }
   h1 {
-    font-family: 'Ma Shan Zheng', cursive;
+    font-family: 'Noto Serif SC Variable', serif;
   }
   body {
     @apply flex min-h-[100svh] flex-col bg-skin-fill font-mono text-skin-base selection:bg-skin-accent/70 selection:text-skin-inverted;
-    font-family: 'Ma Shan Zheng', cursive;
+    font-family: 'ZCOOL XiaoWei', sans-serif;
   }
   section,
   footer {
