@@ -1,5 +1,5 @@
 ---
-title: Freeman first blog test
+title: 题目不可以是中文吗
 description: Test whether the blog file can be correctly synchronized to astro
 pubDatetime: 2024-10-12
 tags:
