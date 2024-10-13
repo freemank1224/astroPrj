@@ -31,8 +31,7 @@ export default defineConfig({
       ],
     ],
     rehypePlugins: [rehypeKatex],
-  }
-  ,
+  },
   vite: {
     server: {
       fs: {
