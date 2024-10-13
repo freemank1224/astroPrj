@@ -38,21 +38,21 @@ export default defineConfig({
       wrap: true,
     },
   },
-  vite: {
-    server: {
-      fs: {
-        allow: ["./src"],
-      },
-    },
-
-  },
   // vite: {
-  //   optimizeDeps: {
-  //     exclude: ["@resvg/resvg-js"],
+  //   server: {
+  //     fs: {
+  //       allow: ["./src"],
+  //     },
   //   },
+
   // },
-  // scopedStyleStrategy: "where",
-  // experimental: {
-  //   contentLayer: true,
-  // },
+  vite: {
+    optimizeDeps: {
+      exclude: ["@resvg/resvg-js"],
+    },
+  },
+  scopedStyleStrategy: "where",
+  experimental: {
+    contentLayer: true,
+  },
 });
