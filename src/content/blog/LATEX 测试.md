@@ -6,11 +6,13 @@ tags:
   - TEST
 share: "true"
 ---
-# 这是对于LATEX格式的测试文档
-## 内联LATEX公式
+## 1. 内联LATEX公式
 $F =G\frac{M m}{R^2}$
 
-## 公式模块
+## 2. 公式模块
 $$
 F=G\frac{M\times m}{R^2}
 $$
+
+
+![RainbowRGB.png](https://s2.loli.net/2024/10/13/lZd4DLRnJ8cwCAX.png)
