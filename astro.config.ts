@@ -31,6 +31,12 @@ export default defineConfig({
       ],
     ],
     rehypePlugins: [rehypeKatex],
+
+    shikiConfig: {
+      // For more themes, visit https://shiki.style/themes
+      themes: { light: "min-light", dark: "night-owl" },
+      wrap: true,
+    },
   },
   vite: {
     server: {
@@ -38,11 +44,7 @@ export default defineConfig({
         allow: ["./src"],
       },
     },
-    shikiConfig: {
-      // For more themes, visit https://shiki.style/themes
-      themes: { light: "min-light", dark: "night-owl" },
-      wrap: true,
-    },
+
   },
   // vite: {
   //   optimizeDeps: {
