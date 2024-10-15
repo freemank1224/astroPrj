@@ -47,10 +47,13 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         作为教育从业者，教育也是我所热爱的事业。
         我将在这里分享我的思考，探讨AI教育的发展趋势，以及如何将AI技术融入教学，以适应未来的教育需求。
       </p>
-        也许会彷徨、会受挫，但不会停止思考与探索！
-      <p>
 
-      </p>
+      <img
+        src="/src/assets/images/ComfyUI_BG.png"
+        alt="AI教育背景图"
+        class="hero-image"
+      />
+
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
@@ -154,5 +157,10 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   }
   .all-posts-btn-wrapper {
     @apply my-8 text-center;
+  }
+
+  /* 新增的图片样式 */
+  .hero-image {
+    @apply w-full h-auto my-4;
   }
 </style>
