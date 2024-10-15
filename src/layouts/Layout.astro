@@ -2,6 +2,9 @@
 import { LOCALE, SITE } from "@config";
 import "@styles/base.css";
 import { ViewTransitions } from "astro:transitions";
+import '@fontsource/ma-shan-zheng'
+import '@fontsource/zcool-xiaowei'
+import '@fontsource-variable/noto-serif-sc'
 
 const googleSiteVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
 
@@ -116,6 +119,13 @@ const structuredData = {
       as="style"
       onload="this.onload=null; this.rel='stylesheet';"
       crossorigin
+    />
+
+    <!-- LATEX -->
+    <script is:inline src="/toggle-theme.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css"
     />
 
     <meta name="theme-color" content="" />

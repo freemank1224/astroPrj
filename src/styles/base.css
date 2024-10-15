@@ -28,8 +28,12 @@
   html[data-theme="dark"] #sun-svg {
     display: block;
   }
+  h1 {
+    font-family: 'Noto Serif SC Variable', serif;
+  }
   body {
     @apply flex min-h-[100svh] flex-col bg-skin-fill font-mono text-skin-base selection:bg-skin-accent/70 selection:text-skin-inverted;
+    font-family: 'Noto Serif SC Variable', serif;
   }
   section,
   footer {
