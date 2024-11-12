@@ -23,7 +23,8 @@ share: "true"
 1. 不用`conda install`来安装`pytorch`，安装时候会有一些组件的CUDA版本不一致，使用`pip install`来安装！即使用下面的命令：
    ```bash
    pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-```
+	```
+
 2. 作者忘记将`OpenCV`放入了，因此我们需要手动装一下，使用`pip install python-contrib-opencv`来进行安装
 这样，应该就可以使用了，下图是我用摄像头捕捉的图像直接生成的深度图。在我RTX3090上可以跑不到10fps吧，很卡。
 ![屏幕截图 2024-11-12 124420.png](https://img.picui.cn/free/2024/11/12/6732dd35a44a8.png)
