@@ -1,5 +1,5 @@
 ---
-title: LightRAG后续：使用Neo4j进行知识图谱显示的踩坑记录
+title: LightRAG后续:使用Neo4j进行知识图谱显示的踩坑记录
 description: 使用LightRAG完成构建之后，可以结合Neo4j工具实现可视化，但是需要在本机上部署Neo4j的环境和软件，但第一次接触Neo4j的我参考现有帖子去做，总是碰壁。本篇把踩的坑记录下来，帮助后来的小白。
 pubDatetime: 2024-11-23
 tags:
