@@ -6,8 +6,8 @@ tags:
   - LLM
   - 知识图谱
   - 技术
-share: "true"
-featured: "true"
+share: true
+featured: true
 ---
 > 注意: 这里主要涉及JDK, Neo4j和APOC，它们之间都有版本对应关系！第一次接触的话，很多设置细节问题需要注意，我搞了好久才弄好，记录下来帮人避坑。
 ## Table of Content

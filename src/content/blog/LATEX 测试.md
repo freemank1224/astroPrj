@@ -4,7 +4,7 @@ description: Test whether the blog file can be correctly display LATEX
 pubDatetime: 2024-10-13
 tags:
   - TEST
-share: "true"
+share: true
 ---
 > 一直想搭建一个个人主页，更系统的记录一些碎片思考和感悟，能顺手帮到别人更好，然后又想能够自动同步本地内容，了解了一圈，目前看来`Obsidian + Github + Netlify` 部署的方案是我能力范围内的最佳选择了。这里简单记录一下这个过程。
 
