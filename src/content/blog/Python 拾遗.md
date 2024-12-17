@@ -2,7 +2,10 @@
 title: Python拾遗系列(1)：脚本调用的玄机
 description: 这个系列记录针对我个人学的不细致的地方，以前很少项目化编程，在真正编写一些系统性的项目时，会遇到很多之前没注意过的地方。在LLM的帮助下，逐个解决这些细节但很重要的问题，并把它记录在此
 pubDatetime: 2024-12-17
-tags: 
+tags:
+  - 技术
+  - 编程
+  - python
 share: "true"
 featured: false
 draft: false
